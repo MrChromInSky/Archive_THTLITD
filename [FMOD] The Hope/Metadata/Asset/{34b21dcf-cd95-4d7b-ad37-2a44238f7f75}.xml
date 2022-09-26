@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{34b21dcf-cd95-4d7b-ad37-2a44238f7f75}">
+		<property name="assetPath">
+			<value>Voices/Tests/FiddleSticks/Damage/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47bb59dd-7706-4b5b-95c3-992f7ae69ac9}</destination>
+		</relationship>
+	</object>
+</objects>

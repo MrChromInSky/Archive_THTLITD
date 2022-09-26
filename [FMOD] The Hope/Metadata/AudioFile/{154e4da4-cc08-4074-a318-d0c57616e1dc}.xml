@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{154e4da4-cc08-4074-a318-d0c57616e1dc}">
+		<property name="assetPath">
+			<value>Voices/Tests/FiddleSticks/After_JumpScare/Fiddlesticks_Original_Attack_23.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4759183673469387</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47bb59dd-7706-4b5b-95c3-992f7ae69ac9}</destination>
+		</relationship>
+	</object>
+</objects>

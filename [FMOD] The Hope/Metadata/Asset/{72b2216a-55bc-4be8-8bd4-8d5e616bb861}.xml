@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{72b2216a-55bc-4be8-8bd4-8d5e616bb861}">
+		<property name="note" />
+		<property name="assetPath">
+			<value>SFX/Player/Movement/Footsteps/Sneak/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47bb59dd-7706-4b5b-95c3-992f7ae69ac9}</destination>
+		</relationship>
+	</object>
+</objects>

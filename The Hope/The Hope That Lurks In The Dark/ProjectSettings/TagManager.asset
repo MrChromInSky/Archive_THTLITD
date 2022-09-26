@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Player_CameraHolder
+  - Player_Head_Base
+  - Player_Head_Pivot
+  - Player_Head_Height
+  - Player_SoundController
+  - Interactable
+  - Player_Hands
+  - Player_Inventory
+  - GUI_Inventory_Slot
+  - GUI_Controller
+  - GUI_Inventory_Description
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Item_Object
+  - Item_Inventory
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

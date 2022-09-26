@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f1ac259d-28e4-41d7-ac7f-25b96fbfd0e8}">
+		<property name="assetPath">
+			<value>Voices/Tests/FiddleSticks/Chase/Fiddlesticks_Original_MoveLong_4.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.9819501133786845</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{47bb59dd-7706-4b5b-95c3-992f7ae69ac9}</destination>
+		</relationship>
+	</object>
+</objects>

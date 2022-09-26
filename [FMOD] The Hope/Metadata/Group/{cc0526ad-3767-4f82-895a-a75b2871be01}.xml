@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{cc0526ad-3767-4f82-895a-a75b2871be01}">
+		<property name="note">
+			<value>Dialogues - Every Voice That is in the game, and is not a song or something else</value>
+		</property>
+		<property name="color">
+			<value>Magenta</value>
+		</property>
+		<property name="name">
+			<value>Voices</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{3451c6ff-a897-41a3-a254-62ab14dab20d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{183d0816-9a5d-4eb1-9562-a4e07f7cf3a8}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a59a5387-8b55-4531-ae2d-927de250f68d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{3451c6ff-a897-41a3-a254-62ab14dab20d}">
+		<relationship name="effects">
+			<destination>{674d6131-b697-481f-ae97-24a49e687161}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{183d0816-9a5d-4eb1-9562-a4e07f7cf3a8}" />
+	<object class="MixerBusFader" id="{674d6131-b697-481f-ae97-24a49e687161}" />
+</objects>

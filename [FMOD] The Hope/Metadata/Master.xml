@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerMaster" id="{56b920ee-d022-4f20-bc24-700ecfb953ec}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0b97eeeb-c227-4eff-9305-10b07d7eed8e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{6c50f519-5cbb-4bd2-849c-fa0268b09aea}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{dca42913-2258-447f-b3d2-14caa13acadd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0b97eeeb-c227-4eff-9305-10b07d7eed8e}">
+		<relationship name="effects">
+			<destination>{933429d1-5f53-405b-abe4-733f6128be87}</destination>
+			<destination>{4e3152bf-2714-49f2-9323-4c851bcc7c30}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{6c50f519-5cbb-4bd2-849c-fa0268b09aea}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{933429d1-5f53-405b-abe4-733f6128be87}" />
+	<object class="PluginEffect" id="{4e3152bf-2714-49f2-9323-4c851bcc7c30}">
+		<relationship name="plugin">
+			<destination>{f3a0a651-5634-4130-9ad3-8aa07cefc44b}</destination>
+		</relationship>
+	</object>
+	<object class="Plugin" id="{f3a0a651-5634-4130-9ad3-8aa07cefc44b}">
+		<property name="identifier">
+			<value>Resonance Audio Listener</value>
+		</property>
+		<relationship name="pluginParameters">
+			<destination>{7664e265-4035-4203-a294-8574fe499108}</destination>
+			<destination>{4bccba15-24a7-420f-a823-6861441cfc2e}</destination>
+		</relationship>
+	</object>
+	<object class="FloatPluginParameter" id="{7664e265-4035-4203-a294-8574fe499108}">
+		<property name="name">
+			<value>Gain</value>
+		</property>
+		<property name="value">
+			<value>-9.99999975e-06</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,-80.000000)(1.000000,0.000000)}</value>
+		</property>
+	</object>
+	<object class="DataPluginParameter" id="{4bccba15-24a7-420f-a823-6861441cfc2e}">
+		<property name="name">
+			<value>Room Properties</value>
+		</property>
+		<property name="value" />
+		<property name="dataType">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
